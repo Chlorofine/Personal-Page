@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jan Randel Daluz - Personal Page</title>
+  <style>
+    
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    body {
+      background: linear-gradient(135deg, #f7cd46, #FFFF);
+      color: #8b2222;
+      line-height: 1.6;
+    }
+
+    header {
+      background: #7CAADC;
+      color: #fff;
+      padding: 2rem;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      margin-top: 0.5rem;
+    }
+
+    nav {
+      background: #2C3D73;
+      display: flex;
+      justify-content: center;
+      padding: 0.8rem;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 1rem;
+      font-weight: bold;
+      transition: color 0.3s ease;
+    }
+
+    nav a:hover {
+      color: #fcefee;
+    }
+
+    section {
+      padding: 2rem;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    section h2 {
+      color: #F15B42;
+      margin-bottom: 1rem;
+    }
+
+
+    .portfolio {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+    }
+
+    .card {
+      background: #fff;
+      border-radius: 8px;
+      padding: 1rem;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+
+    .card img {
+      max-width: 100%;
+      border-radius: 6px;
+    }
+
+    footer {
+      background: #7CAADC;
+      color: #fff;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+
+    .about-container {
+  display: flex;
+  align-items: flex-start;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.about-container img {
+  width: 200px; 
+  height: auto;
+  border-radius: 12px;
+  border: 4px solid #7CAADC;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+.about-text {
+  flex: 1;
+  min-width: 250px;
+}
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Jan Randel Daluz</h1>
+    <p>System Analyst | Web Developer | Photographer</p>
+    <br>
+    <p>Personal Page | 2025</p>
+    
+
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#portfolio">Portfolio</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+
+  <section id="about">
+    <h2>About Me</h2>
+    <div class="about">
+      <div class="about-container">
+      <img src="https://i.postimg.cc/HkzK7v1J/Me.png" alt="Jan Randel Daluz">
+      <div class="about-text">
+      <p>Hello! I’m Jan, a perfectionist and visionary blending technical skill. I am a versatile professional who thrives at the intersection of technology and creativity. As a System Analyst, I enjoy breaking down complex processes and designing solutions that make systems more efficient and user-friendly. My work as a Web Developer allows me to bring ideas to life through responsive, scalable websites that balance functionality with design. Beyond my technical expertise, I am also a passionate Photographer, capturing authentic moments and visual stories that reflect my eye for detail and artistry. Combining analytical precision, technical skill, and creative vision, I strive to deliver work that is both innovative and meaningful.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="portfolio">
+  <h2>Portfolio</h2>
+  <div class="portfolio">
+    <a href="https://janrandeldaluz.pixieset.com/collection/" target="_blank" style="text-decoration: none; color: inherit;">
+      <div class="card">
+        <img src="https://i.postimg.cc/WpfsBL61/IMG-4905.jpg" alt="Project 1">
+        <h3>Project One</h3>
+        <p>Photography Shots.</p>
+      </div>
+    </a>
+    <a href="https://janrandeldaluz.pixieset.com/html/ target="_blank" style="text-decoration: none; color: inherit;">
+      <div class="card">
+        <img src="https://i.postimg.cc/k5D0FDzK/Kirby.png" alt="Project 2">
+        <h3>Project Two</h3>
+        <p>HTML Projects</p>
+      </div>
+    </a>
+  </div>
+</section>
+
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email: jrdmdaluz@gmail.com</p>
+    <p>LinkedIn: linkedin.com/in/jrdmdaluz</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Jan Randel Daluz. All rights reserved.</p>
+  </footer>
+</body>
+</html>
