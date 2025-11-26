@@ -38,27 +38,36 @@
       margin-top: 0.5rem;
     }
 
-    nav {
-      background: #2C3D73;
-      display: flex;
-      justify-content: center;
-      
-      padding: 0.8rem;
-    }
+   .navbar {
+  background-color: #ffe4e1;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
 
-    nav a {
-      color: #fff;
-      text-decoration: none;
-      margin: 0 1rem;
-      font-weight: bold;
-      transition: color 0.3s ease;
-      transform: scale(1.2);
-         color: #fcefee;
-    }
+.nav-list {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin: 0;
+  padding: 1rem 0;
+}
 
-    nav a:hover {
-      color: #fcefee;
-    }
+.nav-list li {
+  margin: 0 1rem;
+}
+
+.nav-list a {
+  text-decoration: none;
+  color: #5a5a5a;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+.nav-list a:hover {
+  background-color: #ffd6d6;
+  color: #333;
+}
 
     section {
       padding: 2rem;
@@ -187,10 +196,13 @@ section {
 
   </header>
 
+   <nav class="navbar">
+    <ul class="nav-list">
   <nav>
     <a href="#about">About</a>
     <a href="#portfolio">Portfolio</a>
     <a href="#contact">Contact</a>
+    </ul>
   </nav>
 
 
@@ -256,6 +268,7 @@ section {
   </footer>
 </body>
 </html>
+
 
 
 
